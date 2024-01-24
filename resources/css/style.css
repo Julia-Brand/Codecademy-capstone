@@ -39,3 +39,29 @@ header right{
         font-weight: 200;
     }
 }
+.block-1{
+    background-color: #dcdcdc;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-size: cover;
+    align-items: center;
+}
+
+.block-1 left img{
+    width: 60%;
+    margin: 32px 24px;
+}
+.block-1 .right{
+    position: relative;
+    right:200px;
+    color: #383838;
+    .button{
+        color: white;
+        text-align: center;
+        background-color: #383838;
+        width: 75%;
+        padding: 8px 0px;
+        font-weight: 200;
+    }
+}
