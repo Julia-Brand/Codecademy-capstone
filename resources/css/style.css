@@ -137,3 +137,66 @@ header right{
         padding:16px;
     }
 }
+.block-3 {
+    background-color: #dcdcdc;
+    margin-bottom: 32px;
+}
+.block-3 h1{
+    text-align: center;
+    color: #383838;
+    padding-top: 32px;
+}
+.block-3 .boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin:32px 72px;
+}
+.block-3 .boxes .box-1{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
+.block-3 .boxes .box-2{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
+.block-3 .boxes .box-3{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
+.block-3 .boxes .box-4{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
+.block-3 .boxes .box-5{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
+.block-3 .boxes .box-6{
+    width: 30%;
+    background-color: white;
+    margin:16px;
+    img{
+        width:100%;
+    }
+}
