@@ -65,3 +65,75 @@ header right{
         font-weight: 200;
     }
 }
+.block-2{
+    background-color: #ffffff;
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: reverse;
+    background-size: cover;
+    
+}
+.block-2 .left{
+    img{
+        width: 65%;
+    }
+    .text {
+        color: #383838;
+        width: 60%;
+        h4 {
+            font-weight: 100;
+        }
+        h5 {
+            font-weight: 100;
+        }
+    }
+}
+.block-2 right {
+    position: relative;
+    right:150px;
+    border-left: thin solid #dcdcdc;
+}
+.block-2 right top{
+    display:flex;
+    border-bottom: thick double #dcdcdc;
+    h4{
+        font-weight: 100;
+    }
+    h5 {
+        color: lightskyblue;
+        font-weight: 100;
+    }
+    img{
+        width:35%;
+        padding:16px;
+    }
+}
+.block-2 right middle{
+    display:flex;
+    h4{
+        font-weight: 100;
+    }
+    h5 {
+        color: lightskyblue;
+        font-weight: 100;
+    }
+    img{
+        width:35%;
+        padding:16px;
+    }
+}
+.block-2 right bottom{
+    display:flex;
+    background-color: #dcdcdc;
+    h4{
+        font-weight: 100;
+    }
+    h5 {
+        color: lightskyblue;
+        font-weight: 100;
+    }
+    img{
+        width:35%;
+        padding:16px;
+    }
+}
