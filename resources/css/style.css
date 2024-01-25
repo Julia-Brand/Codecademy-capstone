@@ -95,6 +95,7 @@ header right{
 .block-2 right top{
     display:flex;
     border-bottom: thick double #dcdcdc;
+    align-content: center;
     h4{
         font-weight: 100;
     }
@@ -109,6 +110,7 @@ header right{
 }
 .block-2 right middle{
     display:flex;
+    align-content: center;
     h4{
         font-weight: 100;
     }
@@ -124,6 +126,7 @@ header right{
 .block-2 right bottom{
     display:flex;
     background-color: #dcdcdc;
+    align-content: center;
     h4{
         font-weight: 100;
         padding: 0px 8px 0px 0px;
@@ -254,8 +257,58 @@ header right{
         font-weight: 100;
     }
 }
+.block-4{
+    border-bottom: thin solid #383838;
+}
+.block-4 content{
+    display: flex;
+}
 .block-4 h1{
     text-align: center;
     color: #383838;
     padding:32px 0px;
+}
+.block-4 left{
+    video{
+        width: 60%;
+        padding: 0px 24px 24px 24px;
+    }
+    .text {
+        color: #383838;
+        width: 60%;
+        h4 {
+            font-weight: 100;
+            padding: 0px 8px 0px 24px;
+        }
+        h2 {
+            font-weight: 100;
+            padding: 0px 0px 8px 24px;
+        }
+    }
+}
+.block-4 right {
+    position: relative;
+    right: 15%;
+    width: 50%;
+    top{
+        display: flex;
+        img{
+            width:35%;
+            padding:16px;
+        }
+    }
+    bottom{
+        display: flex;
+        img{
+            width:35%;
+            padding:16px;
+        }
+    }
+    .text{
+        align-content: center;
+        color: #383838;
+    }
+    h4{
+        font-weight: 100;
+    }
 }
